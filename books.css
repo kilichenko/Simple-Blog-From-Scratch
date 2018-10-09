@@ -1,0 +1,8 @@
+table {
+    margin: 2em;
+    color: #EEEEEE;
+}
+
+table tr:hover, thead tr:hover {
+    color: #252525;
+}

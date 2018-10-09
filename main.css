@@ -1,0 +1,99 @@
+body {
+    background: #252525;
+    font-family: Tahoma;
+}
+
+header {
+    color: #EEEEEE;
+    margin: 1em 7em;
+}
+
+main {
+    margin: 0 5em;
+}
+
+.logo {
+    display: inline;
+
+}
+
+nav {
+    float: right;
+}
+
+.about {
+    color: #EEEEEE;
+}
+
+article {
+    background: #EEEEEE;
+    width: 20%;
+    height: 35em;
+    margin: 2em;
+    float: left;
+}
+
+article .main {
+    padding: 1.5em;
+    color: #333333;
+}
+
+article img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+article a {
+    display: block;
+    margin-top: 1.5em;
+    //color:
+}
+
+article time {
+    font-size: 0.8em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+#img1 {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+#img2 {
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin-left: 1em;
+}
+
+#img3 {
+    max-width: 100%;
+    height: auto;
+    margin: 1em auto;
+    display: block;
+}
